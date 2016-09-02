@@ -1,4 +1,16 @@
 PROJECT
+do a put on a non existent project
+compare updated at before and after put; should be greater
+post without proper headers
+post with more than 256 chars
+Get more info about a request: restrictions, edge cases...
+
+
+
+get a server, pull from git hub and follow the instructions
+Then go to the IP Address of the server ##.###.####:5001 and go to town
+DNS linking IP Addresses to a website name. Hey anyone that looks for this name route them to this IP address of the server that josts my websi
+
 
     POST /projects
     This operation registers a new project. Name and email fields cannot be empty, The unique id and name of the project is returned on success
@@ -29,7 +41,7 @@ PROJECT
                     "id" : 1,
                     "name" : "canary service project"
             }
-
+d
 
     GET /projects
     This operation retrieves a list of all projects

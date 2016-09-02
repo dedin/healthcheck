@@ -10,6 +10,7 @@
 
 ### Architecture
   ![Screenshot](img/archy.png)
+  d
 
 
 For more information on how to use this service, see [API](api.md)
